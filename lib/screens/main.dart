@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
 
+import 'package:islami/screens/main_layer.dart';
+import 'package:islami/themes/app_routes.dart';
+import 'package:islami/themes/app_theme.dart';
+import 'splash_screen.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(islami());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class islami extends StatelessWidget {
+  const islami({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'islami',
-
-      home: Scaffold(),
+      theme: AppTheme.appTheme,
+      initialRoute: AppRoutes.mainLayer,
+      routes: {
+        AppRoutes.splashscreen: (context) => SplashScreen(),
+        AppRoutes.mainLayer: (context) => MainLayer(),
+      },
     );
   }
 }
-
