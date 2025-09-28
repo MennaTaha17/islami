@@ -1,5 +1,6 @@
 class AppConst {
   static String fontFamily = 'Roboto';
+  static String mostRecentKey = 'mostRecent';
   static  String quranIcon = 'assets/images/svg/ic_quran.svg';
   static  String hadeethIcon = 'assets/images/svg/ic_hadeth.svg';
   static  String sebhaIcon = 'assets/images/svg/ic_sebha.svg';
@@ -20,4 +21,8 @@ class AppConst {
   static String quranTab = 'assets/images/png_images/quran_tab.png';
   static String mainHeader = 'assets/images/png_images/main_header.png';
   static String mostRecent = 'assets/images/png_images/img_most_recent.png';
+  static String hadeethTab = 'assets/images/png_images/hadeeth_tap.png';
+  static String hadeethBg = 'assets/images/png_images/hadeeth_bg.png';
+  static String suraDetailsBg = 'assets/images/png_images/sura_details_bg.png';
+
 }

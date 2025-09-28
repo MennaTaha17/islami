@@ -1,4 +1,5 @@
 class AppRoutes {
-  static String splashscreen = '/';
-  static String mainLayer = '/mainLayer';
+  static const String splashscreen = '/';
+  static const String mainLayer = '/mainLayer';
+  static const String  suraDetails = '/suraDetails';
 }

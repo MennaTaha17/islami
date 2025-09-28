@@ -3,12 +3,14 @@ import 'package:islami/common/const.dart';
 import 'package:islami/themes/app_colors.dart';
 
 class CostTextField extends StatelessWidget {
-  const CostTextField({super.key, this.hintText, this.prefixIcon});
+  const CostTextField({super.key, this.hintText, this.prefixIcon, required this.controller});
  final String? hintText;
   final Widget? prefixIcon;
+  final TextEditingController controller;
   @override
   Widget build(BuildContext context) {
     return TextField(
+      controller: controller,
       cursorColor: AppColor.goldColor,
       style: TextStyle(
         color: AppColor.whiteColor,

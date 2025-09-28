@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:islami/common/common_decorations.dart';
 import 'package:islami/common/const.dart';
+import 'package:islami/tabs/hadeeth_tab/hadeeth_tab.dart';
 import 'package:islami/tabs/quran_tab/quran_tab.dart';
 import 'package:islami/themes/app_colors.dart';
 
@@ -16,7 +17,7 @@ class _MainLayerState extends State<MainLayer> {
   int currentTab = 0;
   List<Widget> tab = [
    QuranTab(),
-    Container(color: AppColor.whiteColor),
+    HadeethTab(),
     Container(color: AppColor.goldColor),
     Container(color: AppColor.grayColor),
     Container(color: AppColor.brownColor),

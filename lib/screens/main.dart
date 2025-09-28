@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:islami/screens/main_layer.dart';
+import 'package:islami/tabs/quran_tab/widgets/sura_details.dart';
 import 'package:islami/themes/app_routes.dart';
 import 'package:islami/themes/app_theme.dart';
 import 'splash_screen.dart';
@@ -21,6 +22,7 @@ class islami extends StatelessWidget {
       routes: {
         AppRoutes.splashscreen: (context) => SplashScreen(),
         AppRoutes.mainLayer: (context) => MainLayer(),
+        AppRoutes.suraDetails: (context) => SuraDetails(),
       },
     );
   }
