@@ -4,6 +4,7 @@ import 'package:islami/common/common_decorations.dart';
 import 'package:islami/common/const.dart';
 import 'package:islami/tabs/hadeeth_tab/hadeeth_tab.dart';
 import 'package:islami/tabs/quran_tab/quran_tab.dart';
+import 'package:islami/tabs/sebha_tab/sebha_tab.dart';
 import 'package:islami/themes/app_colors.dart';
 
 class MainLayer extends StatefulWidget {
@@ -18,7 +19,7 @@ class _MainLayerState extends State<MainLayer> {
   List<Widget> tab = [
    QuranTab(),
     HadeethTab(),
-    Container(color: AppColor.goldColor),
+    SebhaTab(),
     Container(color: AppColor.grayColor),
     Container(color: AppColor.brownColor),
   ];

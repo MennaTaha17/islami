@@ -24,5 +24,7 @@ class AppConst {
   static String hadeethTab = 'assets/images/png_images/hadeeth_tap.png';
   static String hadeethBg = 'assets/images/png_images/hadeeth_bg.png';
   static String suraDetailsBg = 'assets/images/png_images/sura_details_bg.png';
+  static String sebhaTab = 'assets/images/png_images/sebha_tab.png';
+  static String sebhaImageBg = 'assets/images/png_images/sebha_image_bg.png';
 
 }
